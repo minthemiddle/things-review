@@ -1,0 +1,27 @@
+<?php
+
+// Fix: Remove personal!
+$things_absolute_path = '/Users/USERNAME/Library/Group Containers/JLMPQHK86H.com.culture
+dcode.ThingsMac/Things Database.thingsdatabase/main.sqlite';
+
+// Consider: If used, must be sql commands optimally
+// $sorting = '';
+
+$project_types = [
+    [
+        'title' => '⚙️ Review Work',
+        'area_ids' => [
+            'f6u5g',
+            'z10r8t',
+        ],
+        'area_id_to_save_review_project' => 'f6u5g',
+    ],
+    [
+        'title' => '😊 Review Private',
+        'area_ids' => [
+            'g3a9b',
+            'a7e3e',
+        ],
+        'area_id_to_save_review_project' => 'g3a9b',
+    ],
+];
